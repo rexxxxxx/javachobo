@@ -11,13 +11,13 @@ public class Bunker_cg4 {
 		//Scanner sc = new Scanner(new FileInputStream("input.txt"));
         
 		Scanner sc = new Scanner(System.in);
-
+		Bunker_cg4 bk = new Bunker_cg4();
 		int T;
 		int test_case;
 
 		
 		int N, M, K;
-		
+
 		
 		T = sc.nextInt();        
 		for(test_case = 1; test_case <= T; test_case++) {
@@ -29,7 +29,7 @@ public class Bunker_cg4 {
 			
 			int[][] map = new int[N][N];
 			int[] dot = new int[K];
-			
+			Vertex[] points = new Vertex[N];
 			int tmp1, tmp2;
 			for(int i=0;i<M;i++){
 				tmp1 = sc.nextInt();
@@ -39,10 +39,40 @@ public class Bunker_cg4 {
 			int tmp;
 			for(int i=0;i<K;i++){
 				tmp=sc.nextInt();
-				dot[tmp]=1;
+				dot[tmp]=1;			//정점 
 			}
 			
 			
+			int sum_range, sum_dot;
+			
+			for(int i=0;i<N;i++){
+				if(dot[i]==0){		//정점이 아닐경우 
+					
+					// 정점까지의 최소거리 구하는 알고리즘
+					for(int j=0; j<N; j++){
+						if(dot[j]==1){			//정점으로 연결되면 ?
+							/*for(int k=step;k<=1;k--){ //역탐색  
+								
+							}*/
+						}
+						else{					//정점이 아닌 다른 점 ?
+							
+							
+							//bk.search_node(1);
+							//step++;
+						}
+					}
+					
+					
+					// 각 노드에서 최소거리의 합 = sum_range; 
+					
+					
+					// 각 노드에서 도착하는 정점의 합 = sum_dot;
+				}
+				
+				
+				
+			}
         
         
 
@@ -55,5 +85,21 @@ public class Bunker_cg4 {
 			}
 			
 		}
+	}
+	
+	public int search_node(int n){
+		return 0;
+	}
+}
+
+class Vertex{
+	public int x;
+	public int y;
+	public int cost;
+	
+	Vertex(int x, int y, int cost){
+		this.x = x;
+		this.y = y;
+		this.cost = cost;
 	}
 }
