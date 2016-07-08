@@ -4,7 +4,7 @@ public class FactorialTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int result = factorial(30);
+		int result = factorial(0);
 		
 		System.out.println(result);
 	}
