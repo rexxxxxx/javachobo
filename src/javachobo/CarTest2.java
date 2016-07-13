@@ -25,6 +25,10 @@ public class CarTest2 {
 		Car1 c1 = new Car1();
 		Car1 c2 = new Car1("blue");
 		
+		Car1 c3 = new Car1("black", "auto", 4);
+		
+		System.out.println("c1 is " );
+		
 		
 	}
 
