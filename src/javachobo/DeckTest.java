@@ -57,6 +57,8 @@ class Carda {
 	static final int DIAMOND = 3;
 	static final int HEART = 2;
 	static final int CLOVER = 1;
+	
+	static final int Clue = 0;
 
 	int kind;
 	int number;
