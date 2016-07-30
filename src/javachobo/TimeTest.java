@@ -18,6 +18,7 @@ public class TimeTest {
 
 //Don't forget myself
 //Remember what I be
+//언제까지 놀꺼냐...
 class Timea{
 	private int hour;
 	private int minute;
