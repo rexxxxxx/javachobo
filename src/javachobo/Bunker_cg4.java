@@ -83,6 +83,8 @@ public class Bunker_cg4 {
 			for(int i=0;i<M;i++){
 				for(int j=0;j<M;j++){
 					System.out.println(i+"*"+j+"*" + map[i][j]);
+					
+					System.out.println("test");
 				}
 			}
 			
