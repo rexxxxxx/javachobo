@@ -27,6 +27,8 @@ public class Bunker_cg4 {
 			K = sc.nextInt();		//Dot	 1~N
 			
 			
+			//one more test
+			
 			int[][] map = new int[N][N];
 			int[] dot = new int[K];
 			Vertex[] points = new Vertex[N];
