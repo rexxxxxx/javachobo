@@ -8,7 +8,7 @@ public class PolyArgumentTest2 {
 		Computer com = new Computer();
 		Buyer b = new Buyer();
 		b.buy(new Tv());
-		b.buy(new Computer());
+		b.buy(com);
 		b.buy(new Audio());
 		b.summary();
 		b.refund(com);
