@@ -1,4 +1,4 @@
-/*package fromch7;
+package fromch7;
 
 public class FighterTest {
 
@@ -33,4 +33,4 @@ class Unit {
 }
 interface Fightable extends Movable, Attackable{}
 interface Movable{ void move(int x, int y);}
-interface Attackable{ void attack(Unit u);}*/
+interface Attackable{ void attack(Unit u);}

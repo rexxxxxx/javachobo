@@ -1,4 +1,4 @@
-package fromch7;
+/*package fromch7;
 
 
 public class RepairableTest {
@@ -78,4 +78,4 @@ class SCV extends GroundUnit implements Repairable{
 			System.out.println(u.toString()+"is finished");
 		}
 	}
-}
+}*/
